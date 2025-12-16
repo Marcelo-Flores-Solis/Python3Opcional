@@ -9,4 +9,12 @@ def calcular_promedio (notas):
 
     peor_nota = min(notas)
     mejor_nota = max(notas)
-    
+
+    # calculamos una nueva suma
+
+    nueva_suma = suma - peor_nota - mejor_nota
+
+    # Promedio
+    promedio = nueva_suma / len(notas) 
+
+    return promedio
